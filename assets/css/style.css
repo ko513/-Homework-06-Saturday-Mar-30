@@ -1,0 +1,97 @@
+
+		/*  =====  LAYOUT  =====  */
+
+		body {
+			background: url(../images/bg-green.jpg);
+			background-size: cover;
+		}
+
+  		#container {
+  			background: rgba(255, 255, 255, 0.5);
+  			border-radius: 20px;
+  			margin: 20px auto;
+  			padding: 20px 20px;
+  			overflow: auto;
+  			width: 1024px;
+  		}
+
+		.row {
+  		  margin-top: 10px;
+  		  justify-content: flex-start;
+  		}
+
+    .col-md-2 {
+      margin-right: 32px;
+      display: -webkit-flex;
+      align-items: center;
+    }
+
+    .col-md-1 {
+      padding: 0px;
+      text-align: center;
+      align-items: center;
+    }
+
+
+
+		/*  =====  BUTTONS  =====  */
+
+		button {
+      background-color: #ffdeba;
+      border: 1px solid #136436;
+      border-radius: 5px;
+      font-size: 9px;
+      color: #136436;
+      margin: 5px 0px;
+      width: 80px;
+			padding: 5px 1px;
+		}
+
+		button:focus { outline: none; }
+
+
+
+		/*  =====  BUTTONS  =====  */
+
+    img.gif {
+      box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+      border-radius: 5px;
+      margin: 10px 0px;
+      width: 180px; 
+    }
+
+		.figure-caption {
+			font-style: italic;
+			font-size: 12px;
+			color: #136436;
+			padding: 4px 0px;
+		}
+
+    #userSubjectButton { font-weight: bold; }
+
+    label {
+      font-size: 1.2rem;
+      color: #136436;
+      margin-bottom: 1px;
+    }
+
+    #user-subject {
+      border-width: 1px;
+      border-radius: 5px;
+      margin: -1px 0px 0px -14px;
+      width: 164px;
+    }
+
+    #user-input .col-md-2 { margin: 0px; }
+
+    #stopButton {
+      color: red;
+      font-weight: bold;
+    }
+
+
+
+		/*  =====  TEXT  =====  */
+
+		h1 { color: #136436; }
+

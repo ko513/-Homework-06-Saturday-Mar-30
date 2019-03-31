@@ -1,7 +1,7 @@
 
 
       var
-        subjects = ["animals", "plants", "football", "baseball", "architecture", "photography", "action movies", "art paintings", "nascar", "indy car", "sports car racing", "formula1", "art paintings", "nascar", "indy car", "sports car racing", "formula1"];
+        subjects = ["Star Wars", "Star Trek", "Peter Gabriel", "Kate Bush", "NY Yankees", "Yes band", "Office Space", "Dirty Harry", "Indiana Jones", "NASCAR", "Indycar", "Le Mans", "Formula 1", "SpaceX", "ISS", "Fight Club", "fractals"];
 
       $( document ).ready(function() {
 

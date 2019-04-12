@@ -89,7 +89,7 @@
       function displayGifs(subject) {
         $('#gifs').empty();
 
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + subject + "&limit=100&apikey=BYNJwvSaWfHMF4s6mnevA3bU8hZYmfPw";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + subject + "&limit=100&apikey=BYNJwvSaWfHMF4s6mnevA3bU8hZYmfPw";
 
         $.ajax({
           url: queryURL,
